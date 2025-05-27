@@ -1,5 +1,7 @@
 <div align="center">
-  <h1 style="display: inline-block; margin: 0;"><img src="images/icon.png" width="62" height="38" style="margin-top: -3px;">FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models</h1>
+  <h1 style="display: inline-block; margin: 0;">
+    <img src="images/icon.png" width="60" height="37" align="absmiddle">FlowCut: Rethinking Redundancy via Information Flow <br>for Efficient Vision-Language Models
+  </h1>
 </div>
 
 
@@ -8,18 +10,20 @@ Jintao Tong<sup>1</sup>,
 Wenwei Jin<sup>2</sup>, 
 Penda Qin<sup>2</sup>, 
 Anqi Li<sup>3</sup>, 
-Yixiong Zou<sup>1✉</sup>, <br>
+Yixiong Zou<sup>1✉</sup>,<br>
 Yuhong Li<sup>2✉</sup>,
 Yuhua Li<sup>1</sup>,
-Ruixuan Li<sup>1</sup>,
-
-<sup>1</sup>School of Computer Science and Technology, Huazhong University of Science and Technology, <br><sup>2</sup>Xiaohongshu Inc., <sup>3</sup>Institute of Information Science, Beijing Jiaotong University
+Ruixuan Li<sup>1</sup>
+<br><br> 
+<sup>1</sup>School of Computer Science and Technology, Huazhong University of Science and Technology<br> <sup>2</sup>Xiaohongshu Inc., <sup>3</sup>Institute of Information Science, Beijing Jiaotong University
 
 </h4>
 
 <div align="center">
+	
 [![arXiv](https://img.shields.io/badge/Arxiv-2505.19536-AD1C18.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19536)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](https://github.com/TungChintao/FlowCut/blob/main/LICENSE)
+
 </div>
 
 ## 🔥 News
@@ -30,7 +34,7 @@ Ruixuan Li<sup>1</sup>,
 
 ## 💡 Highlights
 <p align='center'>
-<img src='images/intro.png' alt='mask' width='950px'>
+<img src='https://github.com/TungChintao/FlowCut/blob/main/images/intro.png' alt='mask' width='950px'>
 </p>
 
 
