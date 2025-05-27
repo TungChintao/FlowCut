@@ -1,6 +1,6 @@
 <div align="center">
   <h1 style="display: inline-block; margin: 0;">
-    <img src="images/icon.png" width="60" height="37" align="absmiddle">FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models
+    <img src="images/icon.png" width="59" height="37" align="absmiddle">FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models
   </h1>
 </div>
 
@@ -30,7 +30,7 @@ Ruixuan Li<sup>1</sup>
 
 *   Checkpoints for LLaVA-1.5-7B-FlowCut (retain 128 tokens/192 tokens) will be released soon!
 *   [Code](https://github.com/TungChintao/FlowCut) will be released soon!
-* **`2025.05.27`** We release our latest work [FlowCut](https://arxiv.org/abs/2505.19536), a plug-and-play, training-free token reduction method that seamlessly integrates into various VLMs for efficient training and inference.
+* **`2025.05.26`** We release our latest work [FlowCut](https://arxiv.org/abs/2505.19536), a plug-and-play, training-free token reduction method that seamlessly integrates into various VLMs for efficient training and inference.
 
 ## 💡 Highlights
 <p align='center'>
