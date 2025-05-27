@@ -1,6 +1,6 @@
 <div align="center">
   <h1 style="display: inline-block; margin: 0;">
-    <img src="images/icon.png" width="60" height="37" align="absmiddle">FlowCut: Rethinking Redundancy via Information Flow <br>for Efficient Vision-Language Models
+    <img src="images/icon.png" width="60" height="37" align="absmiddle">FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models
   </h1>
 </div>
 
