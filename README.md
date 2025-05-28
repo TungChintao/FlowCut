@@ -28,8 +28,8 @@ Ruixuan Li<sup>1</sup>
 
 ## 🔥 News
 
-*   Checkpoints for LLaVA-1.5-7B-FlowCut (retain 128 tokens/192 tokens) will be released soon!
-*   [Code](https://github.com/TungChintao/FlowCut) will be released soon!
+* Hugging Face checkpoints for LLaVA-1.5-7B-FlowCut (retaining 128/192 tokens) will be released soon!
+* **`2025.05.28`** [Code](https://github.com/TungChintao/FlowCut) is now available, and FlowCut can be easily installed via PyPI using `pip install flowcut`！
 * **`2025.05.26`** We release our latest work [FlowCut](https://arxiv.org/abs/2505.19536), a plug-and-play, training-free token reduction method that seamlessly integrates into various VLMs for efficient training and inference.
 
 ## 💡 Highlights
@@ -82,7 +82,7 @@ File organization as follow:
     ├── flowcut
     ├── llava
     ├── playground
-		├── script
+    ├── script
 ```
 
 ## 🚀 Quick Start
@@ -91,7 +91,7 @@ File organization as follow:
 from llava.model.builder import load_pretrained_model
 from llava.mm_utils import get_model_name_from_path
 from llava.eval.run_llava import eval_model
-from FlowCut import flowcut
+from flowcut import flowcut
 model_path = "liuhaotian/llava-v1.5-7b"
 
 tokenizer, model, image_processor, context_len = load_pretrained_model(
