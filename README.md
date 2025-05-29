@@ -1,6 +1,6 @@
 <div align="center">
   <h1 style="display: inline-block; margin: 0;">
-    <img src="images/icon.png" width="59" height="37" align="absmiddle">FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models
+    <img src="images/icon.png" width="58" height="38" align="absmiddle">FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models
   </h1>
 </div>
 
@@ -8,7 +8,7 @@
 <h4 align="center"> 
 Jintao Tong<sup>1</sup>,
 Wenwei Jin<sup>2</sup>, 
-Penda Qin<sup>2</sup>, 
+Pengda Qin<sup>2</sup>, 
 Anqi Li<sup>3</sup>, 
 Yixiong Zou<sup>1✉</sup>,<br>
 Yuhong Li<sup>2✉</sup>,
@@ -21,16 +21,18 @@ Ruixuan Li<sup>1</sup>
 
 <div align="center">
 	
-[![arXiv](https://img.shields.io/badge/Arxiv-2505.19536-AD1C18.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19536)
-[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](https://github.com/TungChintao/FlowCut/blob/main/LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.19536-AD1C18.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19536)
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoints-orange)]([https://huggingface.co/papers/2412.04467](https://huggingface.co/JosephTong/llava-v1.5-7b-flowcut192))
+[![License](https://img.shields.io/badge/📃%20License-Apache_2.0-yellow.svg)](https://github.com/TungChintao/FlowCut/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/TungChintao/FlowCut?style=social)](https://github.com/TungChintao/FlowCut/stargazers)
 
 </div>
 
 ## 🔥 News
 
-* Hugging Face checkpoints for LLaVA-1.5-7B-FlowCut (retaining 128/192 tokens) will be released soon!
-* **`2025.05.28`** [Code](https://github.com/TungChintao/FlowCut) is available, and FlowCut can be easily installed with `pip install flowcut`！
-* **`2025.05.26`** We release our latest work [FlowCut](https://arxiv.org/abs/2505.19536), a plug-and-play, training-free token reduction method that seamlessly integrates into various VLMs for efficient training and inference.
+* **`2025.05.29`** 🤗 The checkpoints of [llava-v1.5-7b-flowcut128](https://huggingface.co/JosephTong/llava-v1.5-7b-flowcut128) and [llava-v1.5-7b-flowcut192](https://huggingface.co/JosephTong/llava-v1.5-7b-flowcut192), retaining 128 and 192 visual tokens respectively, have been released!
+* **`2025.05.28`** 🚀 [Code](https://github.com/TungChintao/FlowCut) is available, and FlowCut can be easily installed with `pip install flowcut`！
+* **`2025.05.26`** 📝 We release our latest work [FlowCut](https://arxiv.org/abs/2505.19536), a plug-and-play, training-free token reduction method that seamlessly integrates into various VLMs for efficient training and inference.
 
 ## 💡 Highlights
 <p align='center'>
@@ -70,7 +72,7 @@ pip install flowcut
 For development, you can install the package by cloning the repository and running the following command:
 
 ```
-git clone https://github.com/TungChintao/flowcut
+git clone https://github.com/TungChintao/FlowCut
 cd flowcut
 pip install -e .
 ```
@@ -128,11 +130,7 @@ CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mme.sh
 ```
 
 ```Shell
-CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/pope.sh
-```
-
-```Shell
-CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/textvqa.sh
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash scripts/v1_5/eval/vqav2.sh
 ```
 
 ## 🎯 Training
@@ -163,7 +161,7 @@ trainer = LLaVATrainer(model=model,
 ```bibtex
 @article{tong2025flowcut,
   title={FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models}, 
-  author={Jintao Tong and Wenwei Jin and Pengda Qin and Anqi Li and Yixiong Zou and Yuhong Li and Yuhua Li and Ruixuan Li},
+  author={Jintao, Tong and Wenwei, Jin and Pengda, Qin and Anqi, Li and Yixiong, Zou and Yuhong, Li and Yuhua, Li and Ruixuan, Li},
   journal={arXiv preprint arXiv:2505.19536},
   year={2025}
 }
