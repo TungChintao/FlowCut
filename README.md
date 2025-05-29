@@ -22,7 +22,7 @@ Ruixuan Li<sup>1</sup>
 <div align="center">
 	
 [![arXiv](https://img.shields.io/badge/arXiv-2505.19536-AD1C18.svg?logo=arXiv)](https://arxiv.org/pdf/2505.19536)
-[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoints-orange)]([https://huggingface.co/papers/2412.04467](https://huggingface.co/JosephTong/llava-v1.5-7b-flowcut192))
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Checkpoints-orange)](https://huggingface.co/JosephTong/llava-v1.5-7b-flowcut192)
 [![License](https://img.shields.io/badge/📃%20License-Apache_2.0-yellow.svg)](https://github.com/TungChintao/FlowCut/blob/main/LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/TungChintao/FlowCut?style=social)](https://github.com/TungChintao/FlowCut/stargazers)
 
