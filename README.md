@@ -160,8 +160,8 @@ trainer = LLaVATrainer(model=model,
 
 ```bibtex
 @article{tong2025flowcut,
-  title={FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models}, 
-  author={Jintao, Tong and Wenwei, Jin and Pengda, Qin and Anqi, Li and Yixiong, Zou and Yuhong, Li and Yuhua, Li and Ruixuan, Li},
+  title={FlowCut: Rethinking Redundancy via Information Flow for Efficient Vision-Language Models},
+  author={Tong, Jintao and Jin, Wenwei and Qin, Pengda and Li, Anqi and Zou, Yixiong and Li, Yuhong and Li, Yuhua and Li, Ruixuan},
   journal={arXiv preprint arXiv:2505.19536},
   year={2025}
 }
