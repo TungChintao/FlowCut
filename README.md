@@ -30,6 +30,7 @@ Ruixuan Li<sup>1</sup>
 
 ## 🔥 News
 
+* **`2025.07.01`** 🚀 We release the implementation of FlowCut for Qwen2-VL! See details [here](https://github.com/TungChintao/FlowCut/tree/main/FlowCut_Qwen).
 * **`2025.05.29`** 🤗 The checkpoints of [llava-v1.5-7b-flowcut128](https://huggingface.co/JosephTong/llava-v1.5-7b-flowcut128) and [llava-v1.5-7b-flowcut192](https://huggingface.co/JosephTong/llava-v1.5-7b-flowcut192), retaining 128 and 192 visual tokens respectively, have been released!
 * **`2025.05.28`** 🚀 [Code](https://github.com/TungChintao/FlowCut) is available, and FlowCut can be easily installed with `pip install flowcut`！
 * **`2025.05.26`** 📝 We release our latest work [FlowCut](https://arxiv.org/abs/2505.19536), a plug-and-play, training-free token reduction method that seamlessly integrates into various VLMs for efficient training and inference.
