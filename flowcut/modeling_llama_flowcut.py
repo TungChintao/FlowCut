@@ -127,6 +127,10 @@ def LlamaFlashAttention2_forward(
 
             start = visual_token_pos[b]
             end = start + visual_token_num[b]
+            
+            query_states = query_states.transpose(1,2)
+            key_states = key_states.transpose(1,2)
+            value_states = value_states.transpose(1,2)
             # vis_k: [head, vis_len, d]
             vis_k = key_states[b,:,start:end]
             # vis_v: [head, vis_len, d]
