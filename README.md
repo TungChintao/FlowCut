@@ -15,7 +15,7 @@ Yuhong Li<sup>2✉</sup>,
 Yuhua Li<sup>1</sup>,
 Ruixuan Li<sup>1</sup>
 <br><br> 
-<sup>1</sup>School of Computer Science and Technology, Huazhong University of Science and Technology<br> <sup>2</sup>Xiaohongshu Inc., <sup>3</sup>Institute of Information Science, Beijing Jiaotong University
+<sup>1</sup>School of Computer Science and Technology, Huazhong University of Science and Technology<br> <sup>2</sup>Xiaohongshu Inc., <sup>3</sup>Shanghai Jiao Tong University
 
 </h4>
 
